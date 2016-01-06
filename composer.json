@@ -1,0 +1,22 @@
+{
+    "name": "arleslie/dreamobjects",
+    "description": "Client for DreamObjects to work with AWS s3 API",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrew Leslie",
+            "email": "arleslie@arleslie.com"
+        }
+    ],
+    "require": {
+        "league/flysystem-aws-s3-v3": "~1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "arleslie\\DreamObjects": "src/"
+        }
+    },
+    "config": {
+        "bin-dir": "bin"
+    }
+}
