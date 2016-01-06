@@ -2,15 +2,7 @@
 Client for DreamObjects to work with AWS S3 API (for Laravel)
 
 # Installation
-In your `composer.json` add:
-```
-    "repository": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/arleslie/dreamobjects-client"
-        }
-    ],
-```
+`composer require arleslie/dreamobjects-client`
 
 In `config\filesystems.php` add the following under `'disks' => [`
 ```
