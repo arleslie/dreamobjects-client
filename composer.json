@@ -1,5 +1,5 @@
 {
-    "name": "arleslie/dreamobjects",
+    "name": "arleslie/dreamobjects-client",
     "description": "Client for DreamObjects to work with AWS s3 API",
     "license": "MIT",
     "authors": [
@@ -13,7 +13,7 @@
     },
     "autoload": {
         "psr-4": {
-            "arleslie\\DreamObjects": "src/"
+            "arleslie\\DreamObjects\\": "src/"
         }
     },
     "config": {
