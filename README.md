@@ -8,9 +8,9 @@ In `config\filesystems.php` add the following under `'disks' => [`
 ```
         'dreamobjects' => [
             'driver' => 'dreamobjects',
-            'key'    => 'WysSPV7bOuoyu-ZoS4LU',
-            'secret' => 'zFBU7GnCmhmJZ-1zZ4kn3fjg4GM1rUyhAVPVVewz',
-            'bucket' => 'billingserv-cdn'
+            'key'    => '<key>',
+            'secret' => '<secret>',
+            'bucket' => '<bucket name>'
         ],
 ```
 
