@@ -29,4 +29,9 @@ class Adapter extends AwsS3Adapter
 		$this->setPathPrefix(null);
 		$this->uploadBuilder = $UploadBuilder;
 	}
+
+	public function getUrl($path, $expires = null)
+	{
+		return $this->client->getObjectUrl($this->bucket, $path, $expires);
+	}
 }
